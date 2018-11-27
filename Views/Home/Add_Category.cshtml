@@ -1,0 +1,18 @@
+@model Category
+<div class="container">
+    <h1><a href="/">Products</a> | <a href="add_category">Categories</a></h1>
+    <h1>New Category</h1>
+    <form action="create_category" method="post">
+        <div class="form-group">
+            <span asp-validation-for="name"></span>
+            <label asp-for="name"></label>
+            <input type="text" asp-for="name">
+        </div>
+        <input type="submit" value="Create">
+    </form>
+    <h1>Existing Products</h1>
+    @foreach(var category in ViewBag.category)
+    {
+        <p><a href="@category.categoryID">@category.name</a></p>
+    }
+</div>

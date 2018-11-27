@@ -1,0 +1,43 @@
+@model Association
+<div class="container">
+    
+    <h1>@ViewBag.product_details.name</h1>
+    <h3>Categories</h3>
+    @foreach(var category in ViewBag.product_details.product_association)
+    {
+        <p>@category.category.name</p>
+    }
+    <form action="/addCategoryToProduct" method="post">
+        @if(@ViewBag.product_details.product_association == null)
+        {
+            <span asp-validation-for="categoryID"></span>
+            <label asp-for="categoryID"></label>
+            <select asp-for="categoryID" id="">
+                @foreach(var category in ViewBag.category)
+                {
+                    <option value="@category.categoryID">@category.name</option>
+                }
+            </select>
+        }
+        @if(@ViewBag.product_details.product_association != null)
+        {
+            <span asp-validation-for="categoryID"></span>
+            <label asp-for="categoryID"></label>
+            <select asp-for="categoryID" id="">
+                <option value="">Choose</option>
+                @foreach(var category in ViewBag.category)
+                {
+                    @foreach(var category2 in ViewBag.product_details.product_association)
+                    {
+                        @if(@category2.category.categoryID != @category.categoryID)
+                        {
+                            <option value="@category.categoryID">@category.name</option>
+                        }
+                    }
+                }
+            </select>
+        }
+        <input type="submit" value="Add">
+    </form>
+   
+</div>

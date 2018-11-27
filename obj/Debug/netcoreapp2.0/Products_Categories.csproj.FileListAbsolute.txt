@@ -1,0 +1,11 @@
+C:\Users\insiya\Documents\C#\Products_Categories\bin\Debug\netcoreapp2.0\Products_Categories.deps.json
+C:\Users\insiya\Documents\C#\Products_Categories\bin\Debug\netcoreapp2.0\Products_Categories.runtimeconfig.json
+C:\Users\insiya\Documents\C#\Products_Categories\bin\Debug\netcoreapp2.0\Products_Categories.runtimeconfig.dev.json
+C:\Users\insiya\Documents\C#\Products_Categories\bin\Debug\netcoreapp2.0\Products_Categories.dll
+C:\Users\insiya\Documents\C#\Products_Categories\bin\Debug\netcoreapp2.0\Products_Categories.pdb
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.csprojResolveAssemblyReference.cache
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.csproj.CoreCompileInputs.cache
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.AssemblyInfoInputs.cache
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.AssemblyInfo.cs
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.dll
+C:\Users\insiya\Documents\C#\Products_Categories\obj\Debug\netcoreapp2.0\Products_Categories.pdb
